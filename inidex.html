@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahul Jha - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Additional CSS to adjust navigation positioning */
+    .navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    /* Flexbox layout for proper spacing */
+    .hero {
+      display: flex;
+      align-items: center; /* Vertically center items */
+      justify-content: space-between; /* Space out items */
+      padding: 20px; /* Add some padding for better spacing */
+    }
+
+    /* Reduce the size of the image by half */
+    .img {
+      width: 50%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header class="header" id="home">
+    <nav class="navbar">
+      <div class="logo">RJ</div>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#blogs">BLOGS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="text">
+        <h1>Hello, I'm Rahul Jha</h1>
+        <p>A Web Developer with a deep passion for problem solving and analytical thinking. My journey in the world of technology started with an eagerness to explore and innovate, and it has led me to where I am today.</p>
+        <a href="resume.pdf" class="cta-button" download>Resume</a>
+      </div>
+      <img src="images/photo.png" alt="Rahul Jha" class="img">
+    </div>
+  </header>
+  
+  <section class="section" id="blogs">
+    <!-- Your blogs content goes here -->
+  </section>
+  
+  <section class="section" id="about">
+    <!-- Your about content goes here -->
+  </section>
+  
+  <section class="section" id="contact">
+    <!-- Your contact content goes here -->
+  </section>
+</body>
+</html>
